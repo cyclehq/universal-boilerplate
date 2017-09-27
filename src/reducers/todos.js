@@ -2,7 +2,6 @@ const initialState = [
     { id: 1, text: 'Todo 1', checked: false },
     { id: 2, text: 'Todo 2', checked: false },
     { id: 3, text: 'Todo 3', checked: false },
-    { id: 4, text: 'Todo 4', checked: true },
 ];
 
 export default (state = initialState, action) => {
