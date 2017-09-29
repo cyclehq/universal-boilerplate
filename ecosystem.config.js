@@ -36,7 +36,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com:cyclehq/universal-boilerplate.git',
       path : '/home/deploy/universal-boilerplate',
-      'post-deploy' : 'yarn install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'yarn install && yarn run build && pm2 reload ecosystem.config.js --env production'
     },
   }
 };
