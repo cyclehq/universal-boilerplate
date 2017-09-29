@@ -15,7 +15,7 @@ module.exports = {
       env_production : {
         NODE_ENV: 'production'
       },
-      interpreter: '/home/deploy/universal-boilerplate/node_modules/.bin/babel-node'
+      interpreter: '/home/deploy/universal-boilerplate/source/node_modules/.bin/babel-node'
     },
 
     // Second application
