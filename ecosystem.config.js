@@ -9,6 +9,7 @@ module.exports = {
     {
       name      : 'boilerplate',
       script    : './server.js',
+      watch     : true,
       cwd: '/home/deploy/universal-boilerplate',
       env: {
       },
